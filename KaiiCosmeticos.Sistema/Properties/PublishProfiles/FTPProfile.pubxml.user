@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA0B+gXePeJUqkZ5rB5k7ShwAAAAACAAAAAAADZgAAwAAAABAAAADo2IvfODFEBj49VDR/1UrfAAAAAASAAACgAAAAEAAAAGJAlCOMdIAXJSijKHhtUbYYAAAA6e8p48QFGm3HT19DnwIBXbCyS8yJEdBHFAAAAOfv3CfHeHAScu5IMxhYCz7jfT2P</EncryptedPassword>
+    <_PublishTargetUrl>ftp://ftp.site4now.net/erro202-001-site1</_PublishTargetUrl>
+    <History>False|2021-09-17T20:25:23.4214645Z;False|2021-09-17T17:25:04.8794672-03:00;</History>
+  </PropertyGroup>
+</Project>

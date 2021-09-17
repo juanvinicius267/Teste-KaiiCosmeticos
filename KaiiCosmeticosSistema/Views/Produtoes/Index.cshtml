@@ -1,0 +1,72 @@
+﻿@model IEnumerable<KaiiCosmeticosSistema.Models.Produto>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UnidadeDeMedida)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PrecoCusto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PrecoVenda)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdFornecedor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdFabricante)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tipo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Visivel)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UnidadeDeMedida)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PrecoCusto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PrecoVenda)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdFornecedor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdFabricante)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tipo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Visivel)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdProduto">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdProduto">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdProduto">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
